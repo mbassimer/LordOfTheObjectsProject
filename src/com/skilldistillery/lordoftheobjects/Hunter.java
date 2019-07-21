@@ -52,7 +52,7 @@ public class Hunter extends Participant {
 
 	}
 
-	public void damagePts(Enemy target) {
+	public void damagePts(Participant target) {
 
 		double damagePts = (Math.random() * 20 + 1);
 		target.healthPts -= (int)damagePts;

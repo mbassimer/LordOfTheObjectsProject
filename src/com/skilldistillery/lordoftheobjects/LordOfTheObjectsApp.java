@@ -136,7 +136,7 @@ public class LordOfTheObjectsApp {
 			}
 		}
 		if (enemy3.healthPts <= 0) {
-			System.out.println("\nMust notify Department of Natural Resources the " + enemy3.name + " died.");
+			System.out.println("\nMust notify Department of Natural Resources the  " + enemy3.name + "  died.");
 			System.out.println("You have reached your target! You find a deer object and take it home for dinner!");
 
 		}

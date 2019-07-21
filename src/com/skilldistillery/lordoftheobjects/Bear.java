@@ -1,6 +1,6 @@
 package com.skilldistillery.lordoftheobjects;
 
-public class Bear extends Enemy {
+public class Bear extends Participant {
 
 	public Bear() {
 		super();

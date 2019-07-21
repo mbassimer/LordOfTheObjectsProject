@@ -10,7 +10,7 @@ public class Hunter extends Participant {
 	}
 
 	public Hunter(double healthPts, String name, String origin) {
-
+		super(healthPts, name, origin);
 	};
 
 	public void hunterAttack(Scanner kb) {
@@ -52,10 +52,10 @@ public class Hunter extends Participant {
 
 	}
 
-	public void damagePts(Participant target) {
+	public void damagePts(Enemy target) {
 
 		double damagePts = (Math.random() * 20 + 1);
-		target.healthPts -= damagePts;
+		target.healthPts -= (int)damagePts;
 		System.out.println(target.name + "health is down to: " + target.healthPts );
 
 	}

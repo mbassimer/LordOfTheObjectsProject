@@ -1,6 +1,6 @@
 package com.skilldistillery.lordoftheobjects;
 
-public class Lion extends Participant {
+public class Lion extends Enemy {
 
 	public Lion() {
 		super();
@@ -16,7 +16,7 @@ public class Lion extends Participant {
 
 		double damagePts = (Math.random() * 10 + 1);
 		hunter.healthPts -= (int)damagePts;
-		System.out.println(hunter.name.toUpperCase() + " health is knocked down to: " + hunter.healthPts);
+		System.out.println(hunter.name.toUpperCase() + " health is knocked down to: " + (int) hunter.healthPts);
 
 	}
 	

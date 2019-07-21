@@ -35,9 +35,7 @@ public class Participant {
 		this.healthPts = health;
 	}
 
-	public double getDamage() {
-		
-	}
+
 
 	public void setDamage(double damage) {
 		
